@@ -27,6 +27,7 @@ void Employee :: setData(int a1, int b1, int c1){
 int main(){
     Employee Meme;
     Meme.setData(1, 2, 4);
+    Meme.d = 88;
     Meme.getData();
     return 0;
 }

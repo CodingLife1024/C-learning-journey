@@ -12,6 +12,5 @@ Create 2 classes:
     Q4. How is code reusability implemented?
 */
 int main(){
-    
     return 0;
 }

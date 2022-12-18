@@ -25,6 +25,21 @@ class Derived: public Base1, public Base2{
         }
 };
 
+class B{
+    public:
+        void say(){
+            cout<<"Hello world!?!?"<<endl;
+        }
+};
+
+class D{
+    int a;
+    public:
+        void say(){
+            cout<<"Hello, my beautiful code!!!"<<endl;
+        }
+};
+
 // int main(){ //ambiguity 1
 //     Base1 base1obj;
 //     Base2 base2obj;
@@ -36,5 +51,9 @@ class Derived: public Base1, public Base2{
 // } 
 
 int main(){
+    B b;
+    b.say();
+    D d;
+    d.say();
     return 0;
 }

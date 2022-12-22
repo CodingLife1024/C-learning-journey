@@ -12,7 +12,7 @@ class CWH{
             title =  s;
             rating = r;
         }
-        virtual void display(){}
+        virtual void display() = 0;
 };
 
 class CWHVideo: public CWH{

@@ -20,5 +20,11 @@ int main(){
     cin>>name;
     hout<<name<<endl;
     hout<<"The name's " + name<<endl;
+    hout.close();
+    ifstream hin("sample60.txt");
+    string content;
+    hin>>content;
+    cout<<"The content of the file is: "<<content;
+    hin.close();
     return 0;
 }

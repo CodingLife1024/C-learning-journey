@@ -14,5 +14,11 @@ Two ways to open a file:
 */
 
 int main(){
+    ofstream hout("sample60.txt");
+    cout<<"Enter your name: "<<endl;
+    string name;
+    cin>>name;
+    hout<<name<<endl;
+    hout<<"The name's " + name<<endl;
     return 0;
 }

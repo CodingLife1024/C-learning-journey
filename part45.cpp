@@ -21,7 +21,7 @@ class Harry{
 
 int main()
 {
-    Harry<> h(4, 6.4, 'c');
+    Harry<> h(4, 6.99, 'c');
     h.display();
     cout << endl;
     Harry<float, char, char> g(1.6, 'o', 'c');
